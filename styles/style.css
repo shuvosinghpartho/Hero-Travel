@@ -27,9 +27,6 @@ body {
     margin: auto;
 }
 
-
-/* navbar part css */
-
 #navbar {
     margin-top: 30px;
 }
@@ -79,12 +76,6 @@ body {
     display: none;
 }
 
-
-/* navbar part css end*/
-
-
-/* banner part */
-
 #banner_part {
     margin-top: 40px;
 }
@@ -125,7 +116,6 @@ body {
     background: rgba(252, 249, 249, 0.205);
     border-radius: 8px;
     padding: 20px;
-    /* margin: 0 auto; */
 }
 
 .input1 {
@@ -205,9 +195,6 @@ body {
     font-size: 14px;
 }
 
-
-/* popular_part css */
-
 #popular_part {
     margin-top: 90px;
 }
@@ -270,9 +257,6 @@ body {
     border-radius: 8px;
     font-weight: 700;
 }
-
-
-/* destination_part */
 
 #destination_part {
     margin-top: 90px;
@@ -461,9 +445,6 @@ body {
     line-height: 26px;
 }
 
-
-/* traverler part css */
-
 #traveler_part {
     margin: 90px 0;
 }
@@ -525,12 +506,6 @@ body {
 .trav_icon i {
     color: rgb(240, 207, 23);
 }
-
-
-/* traverler part css */
-
-
-/* newsletter part */
 
 #newsletter_part {
     margin-top: 80px;
@@ -632,9 +607,6 @@ body {
     bottom: 50px;
     transform: rotate(-19deg);
 }
-
-
-/* footer  */
 
 #footer_part {
     margin-top: 90px;

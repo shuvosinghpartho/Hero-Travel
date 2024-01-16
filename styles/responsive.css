@@ -1,5 +1,4 @@
 @media(min-width:992px) and (max-width:1199.98px) {
-    /* navbar part responsive */
     #navbar .container {
         width: 100%;
         padding: 0 25px;
@@ -76,12 +75,6 @@
     #traveler_part .container {
         width: 100%;
     }
-    /* .circel_padd{
-  margin-right:20px;
-}
-.traveler_left {
-  margin-right: 0;
-} */
     .traveler_left {
         width: 29%;
         margin-left: 20px;
@@ -92,7 +85,6 @@
 }
 
 @media(max-width:575px) {
-    /* navbar part responsive */
     #navbar {
         display: none;
     }
@@ -120,7 +112,6 @@
     .navImg h4 span {
         color: #FF5400;
     }
-    /* banner part */
     #banner_part {
         margin: 30px 20px 20px 20px;
     }
@@ -162,7 +153,6 @@
         width: 100%;
         padding-top: 15px;
     }
-    /* popular part */
     #popular_part {
         margin-top: 40px;
         padding: 0 20px;
@@ -198,7 +188,6 @@
         font-size: 14px;
         width: 100%;
     }
-    /* destination part responsive */
     #destination_part {
         margin-top: 30px;
         padding: 0 15px;
@@ -294,7 +283,6 @@
         top: 64px;
         left: 30%;
     }
-    /* traveler say */
     #traveler_part {
         margin: 40px 15px 40px 15px;
     }
@@ -315,7 +303,6 @@
     .traveler_left p {
         font-size: 14px;
     }
-    /* choose part */
     #choose_part {
         margin-top: 30px;
         padding: 0 15px;
@@ -350,7 +337,6 @@
     .choose_3rd p {
         font-size: 14px;
     }
-    /* newsletter Part */
     #newsletter_part {
         margin: 50px 10px 0 10px;
     }
@@ -383,7 +369,6 @@
         bottom: -80px;
         transform: rotate(0deg);
     }
-    /* footer part */
     #footer_part {
         padding: 40px 20px 0 20px;
         margin-top: 120px;
