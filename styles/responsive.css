@@ -1,0 +1,400 @@
+@media(min-width:992px) and (max-width:1199.98px) {
+    /* navbar part responsive */
+    #navbar .container {
+        width: 100%;
+        padding: 0 25px;
+    }
+    #banner_part .container {
+        width: 100%;
+    }
+    #banner_part {
+        margin: 40px 20px 20px 20px;
+    }
+    .banner_main {
+        transform: translateY(55%);
+    }
+    #popular_part {
+        margin: 60px 40px 0 40px;
+    }
+    #popular_part .container {
+        width: 100%;
+    }
+    #destination_part .container {
+        width: 100%;
+    }
+    .maldives img {
+        width: 100%;
+    }
+    .indo img {
+        width: 100%;
+    }
+    .sri_content img {
+        width: 100%;
+    }
+    .banderfst img {
+        width: 100%;
+    }
+    .banderfst img {
+        width: 100%;
+    }
+    #destination_part {
+        margin-top: 90px;
+        padding: 0 30px;
+    }
+    #choose_part {
+        margin: 170px 30px 0 30px;
+    }
+    #choose_part .container {
+        width: 100%;
+    }
+    #newsletter_part {
+        padding: 0 20px;
+    }
+    .news_left {
+        margin-right: 40px;
+    }
+    #newsletter_part .container {
+        width: 100%;
+    }
+    .news_right {
+        width: 54%;
+        margin-top: 65px;
+    }
+    .travels {
+        bottom: 86px;
+        transform: rotate(-14deg);
+    }
+    #footer_part {
+        padding: 100px 60px 40px 60px;
+    }
+    #footer_part .container {
+        width: 100%;
+    }
+    #traveler_part {
+        margin: 90px 30px;
+    }
+    #traveler_part .container {
+        width: 100%;
+    }
+    /* .circel_padd{
+  margin-right:20px;
+}
+.traveler_left {
+  margin-right: 0;
+} */
+    .traveler_left {
+        width: 29%;
+        margin-left: 20px;
+    }
+    .traveler_left p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:575px) {
+    /* navbar part responsive */
+    #navbar {
+        display: none;
+    }
+    .res_nav {
+        display: block;
+        margin-top: 25px;
+    }
+    .res_navrow {
+        align-items: center;
+        margin: 0 20px;
+        justify-content: space-between;
+    }
+    .navImg {
+        display: flex;
+        align-items: center;
+    }
+    .navImg img {
+        max-width: 35px;
+    }
+    .navImg h4 {
+        margin-left: 10px;
+        font-size: 21px;
+        font-weight: 800;
+    }
+    .navImg h4 span {
+        color: #FF5400;
+    }
+    /* banner part */
+    #banner_part {
+        margin: 30px 20px 20px 20px;
+    }
+    #banner_part .container {
+        width: 100%;
+        height: 535px;
+    }
+    .banner_main p {
+        font-size: 14px;
+    }
+    .banner_main {
+        transform: translateY(0);
+        padding: 30px 15px;
+    }
+    .banner_main h2 {
+        font-size: 22px;
+        margin-bottom: 13px;
+    }
+    .input_box {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .input1 {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .input1 input {
+        width: 100%;
+    }
+    .input2 {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .input3 {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .button_input {
+        width: 100%;
+        padding-top: 15px;
+    }
+    /* popular part */
+    #popular_part {
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+    #popular_part .container {
+        width: 100%;
+    }
+    .popular_left {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .popular_right {
+        width: 100%;
+    }
+    .popular_left h3 {
+        font-size: 20px;
+    }
+    .popular_left p {
+        color: #4b4b4d;
+        font-size: 14px;
+        width: 100%;
+    }
+    .popular_left ul li {
+        color: #4b4b4d;
+    }
+    .popular_bottom {
+        color: #4b4b4d;
+    }
+    .popular_right img {
+        padding: 0 10px;
+    }
+    .popular_left ul li {
+        font-size: 14px;
+        width: 100%;
+    }
+    /* destination part responsive */
+    #destination_part {
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+    #destination_part .container {
+        width: 100%;
+    }
+    .destination_header h3 {
+        font-size: 20px;
+    }
+    .destination_header p {
+        text-align: center;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .maldiv_1st {
+        flex-direction: column;
+        position: relative;
+    }
+    .sri_1st {
+        flex-direction: column;
+        margin-top: 0;
+        position: relative;
+    }
+    .bangladesh_1st {
+        flex-direction: column;
+    }
+    .maldives img {
+        width: 100%;
+    }
+    .indo img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .indo {
+        position: relative;
+    }
+    .sri_content img {
+        width: 100%;
+    }
+    .sri {
+        position: relative;
+    }
+    .tri {
+        position: relative;
+    }
+    .fri {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .banderfst img {
+        width: 100%;
+    }
+    .bangladesh_1st {
+        margin-top: 0;
+        position: relative;
+    }
+    .maldives h4 {
+        margin-top: 0;
+        color: #FFFFFF;
+        position: absolute;
+        top: 64px;
+        left: 30%;
+    }
+    .banderfst h4 {
+        margin-top: 0;
+        color: #FFFFFF;
+        position: absolute;
+        left: 27%;
+        top: 77px;
+    }
+    .bangld h4 {
+        position: absolute;
+        left: 27%;
+        top: 75%;
+    }
+    .fri h4 {
+        position: absolute;
+        top: 64px;
+        left: 30%;
+    }
+    .sri_content h4 {
+        margin-top: 0;
+        color: #FFFFFF;
+        position: absolute;
+        top: 42%;
+        left: 32%;
+    }
+    .indo h4 {
+        margin-top: 0;
+        color: #FFFFFF;
+        position: absolute;
+        top: 64px;
+        left: 30%;
+    }
+    /* traveler say */
+    #traveler_part {
+        margin: 40px 15px 40px 15px;
+    }
+    #traveler_part .container {
+        width: 100%;
+    }
+    .traveler_row {
+        flex-direction: column;
+    }
+    .traveler_left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .travel_header h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .traveler_left p {
+        font-size: 14px;
+    }
+    /* choose part */
+    #choose_part {
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+    #choose_part .container {
+        width: 100%;
+    }
+    .choose_header h3 {
+        font-size: 20px;
+    }
+    .choose_header p {
+        text-align: center;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .choose_1st {
+        width: 100%;
+        margin-right: 0;
+    }
+    .choose_2nd {
+        width: 100%;
+    }
+    .choose_3rd {
+        width: 100%;
+    }
+    .choose_1st p {
+        font-size: 14px;
+    }
+    .choose_2nd p {
+        font-size: 14px;
+    }
+    .choose_3rd p {
+        font-size: 14px;
+    }
+    /* newsletter Part */
+    #newsletter_part {
+        margin: 50px 10px 0 10px;
+    }
+    #newsletter_part .container {
+        width: 100%;
+    }
+    .news_left {
+        width: 100%;
+        margin-right: 0;
+    }
+    .news_right {
+        width: 100%;
+    }
+    .news_input input {
+        width: 100%;
+    }
+    .news_input2 input {
+        width: 100%;
+    }
+    .news_input_btn {
+        width: 100%;
+    }
+    .news_left h3 {
+        padding-top: 0;
+    }
+    .news_right {
+        margin-top: 40px;
+    }
+    .travels {
+        bottom: -80px;
+        transform: rotate(0deg);
+    }
+    /* footer part */
+    #footer_part {
+        padding: 40px 20px 0 20px;
+        margin-top: 120px;
+    }
+    #footer_part .container {
+        width: 100%;
+    }
+    .footer p {
+        font-size: 13px;
+    }
+    .footerp p {
+        font-size: 13px;
+    }
+}

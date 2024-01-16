@@ -3,169 +3,296 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B9-A2</title>
+    <title>Travel Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 
 <body>
-    <header class="header">
-        <img class="Logo-img" src="Images/Group 40071 (2).png" alt="">
-        <nav>
 
-            <h3 class="Agency-title"> Travel <span class="Agency-title-touch">Touch</span></h3>
-            <ul class="list">
-                <li class="Home">Home</li>
-                <li>Packages</li>
-                <li>Testimonial</li>
-                <li>Blog</li>
-                <li>Contact</li>
+    <!-- navbar part start -->
 
-            </ul>
-        </nav>
-        <div class="Banner">
-            <div class="banner-des">
-
-                <h1 class="title">Explore Your Travel</h1>
-                <p class="Wite-gray">Embark on a journey where moments unfold like pages of a captivating novel, as you traverse landscapes that paint memories with the vibrant brushstrokes of new experiences. Travel, the passport to a world where every step echoes the heartbeat
-                    of adventure.
-                </p>
-
-                <div class="transparent">
-                    <button class="btn-primary-t-three">Where go</button>
-                    <button class="btn-primary-t-three">When</button>
-                    <button class="btn-primary-t-three">Select Type</button>
-                    <button class="btn-primary">Find Now</button>
+    <nav id="navbar">
+        <div class="container">
+            <div class="row nav_row">
+                <div class="nav_left ">
+                    <img src="image/logo.png" alt="" srcset="">
+                    <h4>Travel <span>Zone</span></h4>
 
                 </div>
+                <div class="nav_right">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <img class="image" src="Images/Group 13 (1) (1).png" alt="">
         </div>
-    </header>
+    </nav>
 
-
-    <main>
-
-        <section>
-            <div class="main-sec-left">
-                <div class="Tour-planing">
-                    <h2 class="Tour-title">Our Popular Tours</h2>
-                    <p class="tour-des">Tour seems like there might be a typo asking for information related to the tourism industry. <br> Here are some points related to the tourism sector
-                        <br> Hospitality Industry: Tourism is closely linked with the hospitality industry,, <br> and other accommodation options. <br> Transportation: Efficient transportation systems, <br> cruise ships, trains, and buses, travel for
-                        tourists <br> Tour Operators: These companies organize and execute tours for individuals and groups,
-                        <br> accommodation, and guided activities. <br> Remember that the tourism industry is dynamic, <br> and trends and priorities can evolve over time based on societal, <br>
-
-                        <button class="btn-primary-two">Read More</button>
-                    </p>
-                </div>
-                <img class="Tour-planing-image" src="Images/Rectangle 4.png" alt="">
+    <!-- responsive nav -->
+    <div class="res_nav">
+        <div class="row res_navrow">
+            <div class="navImg">
+                <img src="image/logo.png" alt="" srcset="">
+                <h4>Travel <span>Zone</span></h4>
             </div>
+            <div class="nav_bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+    <!-- responsive nav -->
 
-        </section>
-        <section class="Tour-guide">
-            <h2 class="Tour-Direction">Choose Your Destination</h2>
-            <p class="direction-description">Embark on a linguistic journey with me, where words weave tales and knowledge unfolds. <br> From the realms of creativity to the corridors of information, together we'll explore the vast landscape of human expression and understanding.
-            </p>
+    <!-- navbar part end -->
 
+    <!-- banner part start -->
+    <section id="banner_part">
+        <div class="container">
+            <div class="banner_main">
+                <h2>Explore Your Travel</h2>
+                <p>Embrace a worry-free travel experience with us as we strive to make your journey more enjoyable. From seamless itineraries to handpicked accommodations</p>
+                <div class="input_box">
+                    <div class="input1">
+                        <input type="text" placeholder="Where go">
+                    </div>
+                    <div class="input2">
+                        <select name="select" id="">
+                    <option value="select">when</option>
+                </select>
+                    </div>
+                    <div class="input3">
+                        <select name="" id="">
+                    <option value="">Select Type</option>
+                </select>
+                    </div>
+                    <div class="button_input">
+                        <button> <i class="fa-solid fa-magnifying-glass"></i>Find now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner part end -->
+
+    <!-- popular part start -->
+    <section id="popular_part">
+        <div class="container">
+            <div class="row popul">
+                <div class="popular_left">
+                    <h3>Our Popular Tours</h3>
+                    <p>Trust in the guidance of our seasoned travel agents, to curate your perfect journey</p>
+                    <ul>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+
+                    </ul>
+                    <p class="popular_bottom">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                    <div class="popular_btn">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="popular_right">
+                    <img src="image/pop.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popular part end -->
+
+    <!-- destination part start -->
+    <section id="destination_part">
+        <div class="container">
+            <div class="destination_header">
+                <h3>Choose Your Destination</h3>
+                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <span> Sodales dictumst nec nibh pellentesque.</span> </p>
+            </div>
+            <div class="maldiv_1st">
+                <div class="maldives">
+                    <img src="image/mal.png" alt="" srcset="">
+                    <h4>Maldives</h4>
+                </div>
+                <div class="indo">
+                    <img src="image/ind.png" alt="" srcset="">
+                    <h4>Indonesia</h4>
+                </div>
+            </div>
+            <div class="sri_1st">
+                <div class="sri_content sri">
+                    <img src="image/sri.png" alt="" srcset="">
+                    <h4>Srilanka</h4>
+                </div>
+                <div class="sri_content tri">
+                    <img src="image/north.png" alt="" srcset="">
+                    <h4>North America</h4>
+                </div>
+                <div class="sri_content fri">
+                    <img src="image/kashmir.png" alt="" srcset="">
+                    <h4>Kashmir</h4>
+                </div>
+            </div>
+            <div class="bangladesh_1st">
+                <div class="banderfst band">
+                    <img src="image/ban.png" alt="" srcset="">
+                    <h4>Bangladesh</h4>
+                </div>
+                <div class="banderfst bangld">
+                    <img src="image/bundar.png" alt="" srcset="">
+                    <h4>Bandarban</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- destination part end -->
+
+    <!-- choose us part start -->
+    <section id="choose_part">
+        <div class="container">
+            <div class="choose_header">
+                <h3>Why Choose Us</h3>
+                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <span> Sodales dictumst nec nibh pellentesque.</span> </p>
+            </div>
             <div class="row">
-                <img src="Images/Rectangle 5.png" alt="">
-                <p class="Place-name-5">Maldives</p>
-                <img src="Images/Rectangle 8.png" alt="">
-                <p class="Place-name-eight">Indonesia</p>
+                <div class="choose_1st">
+                    <img src="image/choose1.svg" alt="" srcset="">
+                    <h4>Handpicked Hotels</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+                <div class="choose_2nd">
+                    <img src="image/choose2.svg" alt="" srcset="">
+                    <h4>World Class Service</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+                <div class="choose_3rd">
+                    <img src="image/choose3.svg" alt="" srcset="">
+                    <h4>Best Price Guarantee</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
             </div>
-            <div class="row">
-                <img class="row-six" src="Images/Rectangle 6.png" alt="">
-                <p class="Place-name-six">Srilanka</p>
-                <img class="row-seven" src="Images/Rectangle 7.png" alt="">
-                <p class="Place-name-seven">North America</p>
-                <img class="row-nine" src="Images/Rectangle 9.png" alt="">
-                <p class="Place-name-nine">Kashmir</p>
+        </div>
+    </section>
+    <!-- choose us part end -->
+
+    <!-- what traveler say part -->
+    <section id="traveler_part">
+        <div class="container">
+            <div class="travel_header">
+                <h2>What Travelers Say</h2>
             </div>
-            <div class="row">
-                <img class="row-ellaven" src="Images/Rectangle 11.png" alt="">
-                <p class="Place-name-ellaven">Bangladesh</p>
-                <img class="row-ten" src="Images/Rectangle 10.png" alt="">
-                <p class="Place-name-ten">Bandarban</p>
-
-
-            </div>
-
-        </section>
-        <section class="sec-three">
-            <h2>Why Choose Us</h2>
-            <p class="why-we">Embark on a linguistic journey with me, where words weave tales and knowledge unfolds. <br> From the realms of creativity to the corridors of information, together we'll explore the vast landscape of human expression and understanding.
-            </p>
-            <div class="two-box">
-                <div class="why-we-des">
-                    <h3>Handpicked Hotels</h3>
-                    <p>Embark on a linguistic journey with me, where words weave tales and knowledge unfolds. <br> From the realms of creativity to the corridors of information, together we'll explore the vast landscape of human expression and understanding.
+            <div class="row traveler_row">
+                <div class="traveler_left circel_padd">
+                    <img src="image/test.jpg" alt="" srcset="">
+                    <h4>David Huster</h4>
+                    <h5>Journalist</h5>
+                    <p>As a solo traveler, safety was paramount for me. I'm grateful for the total secured travel measures implemented by this website. It gave me the confidence to explore new destinations worry-free. Can't wait for my next adventure!
                     </p>
+                    <div class="trav_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                 </div>
-                <div class="why-we-des-right">
-
-                    <h3>World Class Service</h3>
-                    <p>Embark on a linguistic journey with me, where words weave tales and knowledge unfolds. <br> From the realms of creativity to the corridors of information, together we'll explore the vast landscape of human expression and understanding.
+                <div class="traveler_left circel_padd">
+                    <img src="image/test.jpg" alt="" srcset="">
+                    <h4>David Jack</h4>
+                    <h5>Civil Engineer</h5>
+                    <p>As a solo traveler, safety was paramount for me. I'm grateful for the total secured travel measures implemented by this website. It gave me the confidence to explore new destinations worry-free. Can't wait for my next adventure!
                     </p>
+                    <div class="trav_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="traveler_left">
+                    <img src="image/test.jpg" alt="" srcset="">
+                    <h4>David Johnson</h4>
+                    <h5>Advocate</h5>
+
+                    <p>As a solo traveler, safety was paramount for me. I'm grateful for the total secured travel measures implemented by this website. It gave me the confidence to explore new destinations worry-free. Can't wait for my next adventure!
+                    </p>
+                    <div class="trav_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                 </div>
             </div>
-            <div class="why-we-des-right-last">
-                <h3>Best Price Guarantee</h3>
-                <p>Embark on a linguistic journey with me, where words weave tales and knowledge unfolds. <br> From the realms of creativity to the corridors of information, together we'll explore the vast landscape of human expression and understanding.
-                </p>
-            </div>
+        </div>
+    </section>
+    <!-- what traveler say end -->
 
-
-        </section>
-
-        <section>
-
-            <div class="main-border">
-                <div class="form">
-                    <form action="">
-                        <h1 class="f-title">
-                            Newsletter
-                        </h1>
-
-                        <p class="f-des">
-                            Get your daily dose of travel news & tips. Sign up today!
-                        </p>
-
+    <!-- newsletter part start -->
+    <section id="newsletter_part">
+        <div class="container">
+            <div class="row">
+                <div class="news_left">
+                    <h3>Newsletter</h3>
+                    <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                    <hr>
+                    <div class="news_input">
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="news_input2">
+                        <input type="text" placeholder="Enter your email">
+                    </div>
+                    <div class="news_input_btn">
+                        <a href="#">Subscribe</a>
+                    </div>
                 </div>
-                <div class="input-box">
-
-                    <input class="t-box" type="text" placeholder="Enter your name">
-                    <input class="t-box" type="text" placeholder="Enter your email">
-                    <button class="s-box" type="submit" class="btn">Subscribe </button>
-
-
-                    </form>
+                <div class="news_right">
+                    <img src="image/Rectangle 8 (1).png" alt="" srcset="">
+                    <div class="travels">
+                        <span>Travel.com</span>
+                        <h4>Save up to 70%</h4>
+                    </div>
                 </div>
-
             </div>
-        </section>
-
-
-        <div>
-            <img class="img-l" src="Images/Rectangle 8 (1).png" alt="">
         </div>
+    </section>
+    <!-- newsletter part end -->
 
-    </main>
+    <!-- footer part start -->
+    <section id="footer_part">
+        <div class="container">
+            <div class="footer_logo">
+                <img src="image/logo.png" alt="" srcset="">
+                <h4>Travel <span>Zone</span></h4>
+            </div>
+            <div class="main_footer">
+                <div class="footer">
 
-    <footer class="footer">
-
-        <div class="footer-title">
-            <h3 class="Agency-title"> Travel <span class="Agency-title-touch">Touch</span></h3>
-            <p class="fo-des">Embark on a journey where moments unfold like pages of a captivating novel, as you traverse landscapes that paint memories with the vibrant brushstrokes of new experiences. Travel, the passport to a world where every step echoes the heartbeat
-                of adventure.
-            </p>
+                    <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. <span>Leo erat maecenas vitae elementum ultricies nullam.</span> </p>
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="footerp">
+                    <p>2017, All Rights Reserved.</p>
+                </div>
+            </div>
         </div>
-        <div class="l-footer">
-            <img class="s-img" src="Images/Facebook.png" alt="">
-            <img class="s-img" src="Images/Twitter.png" alt="">
-            <img class="s-img" src="Images/Linkedin.png" alt="">
-            <img class="s-img" src="Images/Instagram.png" alt="">
-        </div>
-    </footer>
+    </section>
+    <!-- footer part end -->
+
 </body>
 
 </html>
